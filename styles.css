@@ -1,0 +1,113 @@
+body {
+    font-family: "Century Gothic", sans-serif;
+}
+
+.btn {
+    transition: none;
+}
+.btn:active {
+    background-color: lightgray !important;
+    border: 0;
+}
+
+.btnMenu {
+    background-color: transparent;
+    border-radius: 0%;
+    color:  black;
+    font-size: 2vw;
+}
+
+.btnMenuActivado {
+    color:  blue;
+    border-bottom: 3px blue solid !important; 
+}
+
+.btnMenu:hover {
+    color: blue;
+}
+
+
+
+.btnNoti {
+    color:  blue;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.btnMenu i {
+    color: gray
+}
+
+.btnMenuActivado i{
+    color:  blue;
+}
+
+.iconoNoti {
+    font-size: 2vw;
+}
+
+.iconoRefrescar {
+    margin-right: 2%;
+    font-size: 1.5vw;
+}
+
+.tablaVentas {
+    height:  50vh;
+}
+
+i {
+    pointer-events: none;
+}
+
+.tablaTop {
+    height:  50vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.tablaTop th {
+    background-color: dodgerblue;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+}
+
+.notificaciones {
+    background-color:  navy;
+    height: 85vh;
+    display: none;
+    
+}
+
+.combobox{
+    width: 100%;;
+}
+
+h5 {
+    text-align: center;
+    font-weight:  bold;
+    font-style: italic;
+}
+
+h4 {
+    text-align: center;
+    font-weight:  bold;
+}
+
+.labelProducto { 
+ color: white;
+ font-size:  16px;
+ margin-left: 10px;
+}
+
+.panelNotificaciones {
+    background-color: steelblue;
+    font-family: sans-serif;
+}
+
+.notificacion {
+    color: white;
+    font-size:  18px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
